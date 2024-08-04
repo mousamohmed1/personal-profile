@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدماتي - موسى</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        header nav ul li {
+            margin: 0 20px;
+        }
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .services-section {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        .services-section h1 {
+            margin-top: 0;
+            font-size: 2.5em;
+            color: #333;
+            text-align: center;
+        }
+        .services-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .service-item {
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px;
+            width: calc(33% - 30px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .service-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .service-item h2 {
+            font-size: 1.8em;
+            margin-top: 0;
+            color: #007bff;
+        }
+        .service-item p {
+            font-size: 1em;
+            color: #555;
+            line-height: 1.6;
+        }
+        .service-item .contact-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .service-item .contact-btn:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">عني</a></li>
+                <li><a href="portfolio.html">أعمالي</a></li>
+                <li><a href="contact.html">تواصل معي</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section class="services-section">
+            <h1>خدماتي</h1>
+            <div class="services-list">
+                <div class="service-item">
+                    <h2>تصميم الجرافيك</h2>
+                    <p>نقدم خدمات تصميم جرافيكي تشمل تصميم الشعارات، البانرات، المطبوعات، والمواد التسويقية الأخرى بطرق مبدعة وجذابة. نحرص على تحقيق أفضل نتيجة تتناسب مع هوية العلامة التجارية لعملائنا.</p>
+                    <a href="contact.html?service=graphic-design" class="contact-btn">طلب الخدمة</a>
+                </div>
+                <div class="service-item">
+                    <h2>التسويق الإلكتروني</h2>
+                    <p>نقوم بإدارة حملات التسويق عبر البريد الإلكتروني، تحسين محركات البحث (SEO)، وإعلانات الدفع لكل نقرة (PPC) لزيادة ظهور علامتك التجارية وتحقيق أهدافك التسويقية بفعالية.</p>
+                    <a href="contact.html?service=digital-marketing" class="contact-btn">طلب الخدمة</a>
+                </div>
+                <div class="service-item">
+                    <h2>تطوير المواقع الإلكترونية</h2>
+                    <p>نقدم خدمات تصميم وتطوير مواقع الويب بما في ذلك مواقع التجارة الإلكترونية، المواقع الشخصية، والمدونات باستخدام أحدث التقنيات لتحقيق أفضل أداء وتجربة مستخدم.</p>
+                    <a href="contact.html?service=web-development" class="contact-btn">طلب الخدمة</a>
+                </div>
+                <div class="service-item">
+                    <h2>إدارة صفحات السوشيال ميديا</h2>
+                    <p>نساعدك في إدارة حساباتك على وسائل التواصل الاجتماعي، بما في ذلك إنشاء المحتوى، إدارة الحملات الإعلانية، وتحليل الأداء لزيادة التفاعل مع الجمهور وتحقيق أهدافك التسويقية.</p>
+                    <a href="contact.html?service=social-media-management" class="contact-btn">طلب الخدمة</a>
+                </div>
+                <div class="service-item">
+                    <h2>استشارات إدارة المشاريع</h2>
+                    <p>نقدم استشارات متخصصة لتحسين كفاءة عملياتك، إدارة فرق العمل، وتخطيط المشاريع لتحقيق أقصى استفادة من الموارد وتحقيق الأهداف بكفاءة عالية.</p>
+                    <a href="contact.html?service=consultancy" class="contact-btn">طلب الخدمة</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; تم تصميمه بواسطة موسى وجميع الحقوق محفوظة. 2024</p>
+    </footer>
+</body>
+</html>

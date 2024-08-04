@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أعمالي - موسى</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        header nav ul li {
+            margin: 0 20px;
+        }
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .portfolio-section {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        .portfolio-section h1 {
+            margin-top: 0;
+            font-size: 2.5em;
+            color: #333;
+            text-align: center;
+        }
+        .portfolio-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+        .portfolio-item {
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: calc(33% - 30px);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .portfolio-item img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .portfolio-item p {
+            font-size: 1.1em;
+            color: #555;
+            text-align: center;
+        }
+        .challenges-section {
+            background-color: #e9ecef;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .challenges-section h2 {
+            font-size: 2em;
+            color: #007bff;
+            text-align: center;
+            margin-top: 0;
+        }
+        .challenge-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .challenge-item h3 {
+            font-size: 1.5em;
+            color: #333;
+            margin-top: 0;
+        }
+        .challenge-item p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">عني</a></li>
+                <li><a href="services.html">خدماتي</a></li>
+                <li><a href="contact.html">تواصل معي</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section class="portfolio-section">
+            <h1>أعمالي</h1>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/work1.jpg" alt="انشاء متجر الكتروني">
+                    <p>staylor للملابس</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/work2.jpg" alt="العمل 2">
+                    <p>عنوان المشروع 2</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/work3.jpg" alt="العمل 3">
+                    <p>عنوان المشروع 3</p>
+                </div>
+                <!-- أضف أعمال إضافية هنا -->
+            </div>
+        </section>
+
+        <section class="challenges-section">
+            <h2>التحديات والمسابقات</h2>
+            <div class="challenge-item">
+                <h3>تحدي 1</h3>
+                <p>وصف التحدي 1: تفصيل حول التحدي الأول، متطلبات المشاركة، والنتائج المتوقعة.</p>
+            </div>
+            <div class="challenge-item">
+                <h3>تحدي 2</h3>
+                <p>وصف التحدي 2: تفاصيل حول التحدي الثاني، المواعيد النهائية، والجوائز.</p>
+            </div>
+            <!-- أضف تحديات ومسابقات إضافية هنا -->
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; تم تصميمه بواسطة موسى وجميع الحقوق محفوظة. 2024</p>
+    </footer>
+</body>
+</html>
